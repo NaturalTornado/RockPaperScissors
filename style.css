@@ -1,0 +1,161 @@
+body {}
+
+
+
+.MovesBox {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+    margin: 50px;
+    padding: 10px;
+    border-width: 8px;
+    border-color: black;
+    border-radius: 4px;
+
+}
+
+.PlayerMove {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.PMove {
+
+    border-width: 2px;
+    border-color: black;
+    padding: 14px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-style: outset;
+
+}
+
+.ComputerMove {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+
+.CMove {
+
+    border-width: 2px;
+    border-color: black;
+    padding: 14px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-style: outset;
+
+}
+
+
+.moveButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .game-button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+.Scoreboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: auto;
+    margin: 50px;
+    padding: 10px;
+    border-width: 8px;
+    border-color: black;
+    border-radius: 4px;
+    
+}
+
+
+.Scores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: black;
+    background-color: gray;
+
+}
+
+
+.PlayerScore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.PScoreBox {
+
+    border-width: 2px;
+    border-color: black;
+    padding: 14px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-style: outset;
+
+
+}
+
+
+.CScoreBox {
+
+    border-width: 2px;
+    border-color: black;
+    padding: 14px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-style: outset;
+
+
+}
+
+.ComputerScore {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.Playermoves {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+    margin: 50px;
+    padding: 10px;
+    color: blue;
+    border-width: 8px;
+    gap: 40px;
+    border-color: black;
+    border-radius: 4px;   
+
+}
+
+
